@@ -19,12 +19,10 @@
     "url": "https://github.com/codechavez/angular-inline-editor.git"
   },
   "scripts": {
-    "prepare": "npm run distro",
+    "prepare": "npm run compile",
     "compile": "tsc -p tsconfig.json --rootdir lib --outdir dist",
-    "html": "XCOPY /S /y .\\lib\\*.html .\\dist",
-    "css": "XCOPY /S /y .\\lib\\*.css .\\dist",
     "serve": "webpack-dev-server --host localhost --port 3030 --inline --progress",
-    "distro": "npm run compile && npm run html && npm run css",
+    "distro": "npm run compile",
     "postinstall": "opencollective-postinstall"
   },
   "collective": {

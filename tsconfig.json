@@ -16,5 +16,12 @@
     "exclude": [
         "demo/**/*",
         "dist"
-    ]
+    ],
+    "angularCompilerOptions": {
+        "genDir": "dist",
+        "debug": false,
+        "skipTemplateCodegen": true,
+        "skipMetadataEmit": false,
+        "strictMetadataEmit": true
+      }
 }

@@ -5,6 +5,5 @@ export { CheckListEditorModule } from './checklist-editor/checklist-editor.modul
 export { RadioListEditorModule } from './radiolist-editor/radiolist-editor.module'; 
 export { CheckBoxEditorModule } from './checkbox-editor/checkbox-editor.module';
 export { TagsEditorModule } from './tags-editor/tags-editor.module';
-export { TypeAheadEditorModule } from './typeahead-editor/typeahead-editor.module';
 export { NumberEditorModule } from './inputnumber-editor/number-editor.module'
 

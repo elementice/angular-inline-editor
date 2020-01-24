@@ -172,7 +172,7 @@ export class SelectEditorComponent implements ControlValueAccessor, OnInit {
   }
 
   GetDisplayText(c: any): string {
-    return c[this.displayValue];
+    return c ? c[this.displayValue] : '';
 
     // for (var i = 0; i < this.options.length; i++) {
     //   if (this.options[i][this.dataValue] == c) {

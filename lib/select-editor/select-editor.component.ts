@@ -72,7 +72,7 @@ export class SelectEditorComponent implements ControlValueAccessor, OnInit {
   public selectReqflag: boolean = false;
   private _value: any = ''; // Private variable for input value
   private _originalValue: any;
-  private open: boolean = false;
+  public open: boolean = false;
   
   constructor(private _elementRef: ElementRef, private _renderer: Renderer) { }
 

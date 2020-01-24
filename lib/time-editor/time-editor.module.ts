@@ -8,7 +8,7 @@ import { TimepickerModule  } from "ngx-bootstrap";
     imports: [
         CommonModule,
         FormsModule,
-        TimepickerModule
+        TimepickerModule.forRoot()
     ],
     declarations: [
         TimeEditorComponent

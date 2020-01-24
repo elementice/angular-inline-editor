@@ -8,7 +8,7 @@ import { BsDatepickerModule } from "ngx-bootstrap";
     imports: [
         CommonModule,
         FormsModule,
-        BsDatepickerModule
+        BsDatepickerModule.forRoot()
     ],
     declarations: [
         DateEditorComponent

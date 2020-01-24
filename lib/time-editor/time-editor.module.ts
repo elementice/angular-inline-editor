@@ -4,11 +4,13 @@ import { CommonModule } from '@angular/common';
 import { TimeEditorComponent } from './time-editor.component';
 import { TimepickerModule  } from "ngx-bootstrap";
 
+export const TimepickerModuleforRoot = TimepickerModule.forRoot()
+
 @NgModule({
     imports: [
         CommonModule,
         FormsModule,
-        TimepickerModule.forRoot()
+        TimepickerModuleforRoot
     ],
     declarations: [
         TimeEditorComponent

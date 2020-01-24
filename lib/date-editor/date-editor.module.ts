@@ -4,11 +4,13 @@ import { CommonModule } from '@angular/common';
 import { DateEditorComponent } from './date-editor.component';
 import { BsDatepickerModule } from "ngx-bootstrap";
 
+export const BsDatepickerModuleforRoot = BsDatepickerModule.forRoot()
+
 @NgModule({
     imports: [
         CommonModule,
         FormsModule,
-        BsDatepickerModule.forRoot()
+        BsDatepickerModuleforRoot
     ],
     declarations: [
         DateEditorComponent

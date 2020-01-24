@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { SelectEditorComponent } from './select-editor.component';
 import { DisplayNameFilter } from "../pipes/displayvalue.pipe";
 // import { OutSideClickDirective } from "../directives/outsideclick.directive";
+import { DisplayFieldNameFilter } from "../pipes/displayvalue.pipe";
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { DisplayNameFilter } from "../pipes/displayvalue.pipe";
   ],
   declarations: [
     SelectEditorComponent,
-    DisplayNameFilter
+    DisplayNameFilter,
+    DisplayFieldNameFilter
   ],
   exports: [SelectEditorComponent]
 })

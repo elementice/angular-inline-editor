@@ -20,7 +20,7 @@
   },
   "scripts": {
     "prepare": "npm run compile",
-    "compile": "tsc -p tsconfig.json --rootdir lib --outdir dist",
+    "compile": "ngc -p tsconfig.json --rootdir lib --outdir dist",
     "serve": "webpack-dev-server --host localhost --port 3030 --inline --progress",
     "distro": "npm run compile",
     "postinstall": "opencollective-postinstall"
